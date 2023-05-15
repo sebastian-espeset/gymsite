@@ -1,0 +1,21 @@
+@import "../global.scss";
+.about{
+    background-color: $secondaryColor;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title{
+        text-align: center;
+    }
+    .copyBody{
+        text-align: center;
+        margin-bottom: 5px;
+        p{
+            font-size: 32px;
+        }
+    }
+}
