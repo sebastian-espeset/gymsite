@@ -2,7 +2,14 @@
 
 .photoCarousel{
     background-color: $ternaryColor;
-    width: 100%;
+    width: 80vw;
     height: 600px;
     padding: 5px;
+
+}
+
+.single-carousel-img{
+    height: auto;
+    max-height: 600px;
+    max-width: 100%;
 }
