@@ -6,7 +6,7 @@ import pic1 from '../assets/stock-photo-1.png';
 import pic2 from '../assets/stock-photo-2.png';
 
 export function PhotoCarousel() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
