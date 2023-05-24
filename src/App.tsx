@@ -3,16 +3,23 @@ import {Navbar} from '../src/navbar/Navbar';
 // import {PhotoCarousel} from '../src/photoCarousel/PhotoCarousel';
 import { About } from '../src/about/About';
 import { ContactForm } from '../src/contactForm/ContactForm';
-import { Slideshow } from './slideShow/Slideshow';
+import { PhotoCarousel } from './photoCarousel/PhotoCarousel';
+
 function App() {
 
   return (
     <>
       <div className="app">
         <Navbar/>
-        <Slideshow/>
+        <div id="slideshow">
+        <PhotoCarousel/>
+        </div>
+        <div id="about">
         <About/>
+        </div>
+        <div id="contact-form">
         <ContactForm/>
+        </div>
       </div>
     </>
   )
