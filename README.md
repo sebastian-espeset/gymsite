@@ -8,8 +8,6 @@
 #
 # What's currently cookin':
 ## we have 4 components: Nav, PhotoCarousel, About, and ContactForm. 
-## Do we even need navbar? What about footer?
-# TODO: Implement styling, add footer with socials links, build contact form, build photo carousel
 -photo carousel using Slick by akiran see docs at https://github.com/akiran/react-slick
 ## * May need to tweak sass * 
 ## [here is an ongoing notion doc for ideas and questions](https://www.notion.so/Gym-Site-88942517b1834f96a71d6cb5671c84cb?pvs=4)
