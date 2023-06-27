@@ -2,5 +2,47 @@
 .contactForm{
     background-color: $ternaryColor;
     width: 100%;
-    height: 150px;
+    height: 940px;
+    h1{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    .formBoxWrapper{
+        display: flex;
+        align-items: center;
+    }
+    .innerFormBox{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+    .leftForm{
+        border: 2px solid black;
+        width: 50%;
+        .inputDiv{
+            display: flex;
+            flex-direction: column;
+            padding: 3px;
+            .nameDiv{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                input{
+                    width: 33%;
+                }
+            }
+            .contactInfoDiv{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .rightForm{
+        border: 2px solid black;
+        width:50%;
+    }
 }
