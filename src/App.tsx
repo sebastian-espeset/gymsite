@@ -10,9 +10,11 @@ function App() {
     <>
       <div className="app">
         <Navbar/>
-        <PhotoCarousel/>
         <About/>
+        </div>
+        <div id="contact-form">
         <ContactForm/>
+        </div>
       </div>
     </>
   )

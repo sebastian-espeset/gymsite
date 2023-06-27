@@ -1,8 +1,27 @@
 @import '../global.scss';
-.navbar{
+.nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: $secondaryColor;
     width: 100%;
     height: 80px;
     padding: 5px;
     margin-bottom: 5px;
+    list-style: none;
+}
+
+.nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    font-size: 18px;
+    color: var(--tertiary);
+}
+.nav a.active, .nav a:hover {
+    font-style: italic;
+    color: var(--secondary);
 }
