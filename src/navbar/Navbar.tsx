@@ -1,9 +1,30 @@
 import "./navbar.scss";
 
-export  function Navbar() {
+export function Navbar() {
   return (
-    <div className="navbar">
-      <h1>Navbar</h1>
-    </div>
+    <ul className="nav">
+      {/* <li className="nav-item">
+        <a
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li> */}
+      <li className="nav-item">
+        <a
+          href="#about"
+        // onClick={() => handlePageChange('General')}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact-form"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
   )
 }
